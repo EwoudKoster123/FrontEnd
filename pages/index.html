@@ -77,22 +77,26 @@
     <br/>
     <legend>Zou je dit recept willen uitproberen?</legend>
     <br/>
-    <input type="radio" name="Ja" value="Ja">Ja <input type="radio" name="Nee" value="Nee">Nee <input type="radio" name="Misschien" value="Misschien">Misschien
+    <input type="radio" name="radio" value="radio">Ja <input type="radio" name="radio" value="radio">Nee <input type="radio" name="radio" value="radio">Misschien
     <br/>
     <br/>
     <legend>Opmerkingen</legend>
-    <textarea id="Mening" name="Mening" rows="4" cols="50"> Wat vond je van het recept?
-    </textarea>
+<!--    <placeholder id="Mening" name="Mening" rows="4" cols="50"> Wat vond je van het recept?></placeholder>-->
+<!--    84: De tekst moet als waarde gelden voor het placeholder-attribuut;-->
+     <textarea id="Mening" name="Mening" rows="4" cols="50"> Wat vond je van het recept?
+     </textarea>
     <br/>
+    <label id="nieuwsbrief" for="nieuwsbrief"></label>
     <input type="checkbox" name="Nieuwsbrief" value="Nieuwsbrief">Schrijf me in voor de nieuwsbrief
     <br/>
     <br/>
-    <form onsubmit="">
+    <form>
         <button type="submit">
             Versturen
         </button>
     </form>
-
+<!--    90: Het form moet om alle vragen heen staan, dus boven regel 57; 84: En deze tag zou dan na regel 96 komen;-->
+<!--    Wat moet ik hiermee doen?-->
 </fieldset>
 </body>
 </html>
